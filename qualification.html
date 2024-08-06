@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Qualifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/007/169/428/non_2x/modern-dark-blue-background-with-golden-lines-element-vector.jpg');
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+  
+        h2 {
+            color: #fff;
+            text-align: center;
+        }
+        .qualifications {
+            display: flex;
+            justify-content: center; /* Center align the items */
+            flex-wrap: wrap;
+        }
+        .qualification-item {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+        .qualification-item img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .qualification-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .qualification-item {
+                width: 100%;
+            }
+        }
+        /* Custom styles for centering the third item */
+        .qualification-item.middle {
+            width: 30%; /* Ensure the width is consistent with others */
+            margin: 10px auto; /* Center align */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="qualification">
+            <h2>Educational Qualifications</h2>
+            <div class="qualifications">
+                <div class="qualification-item">
+                    <img src="10th.png" alt="10th Class Certificate">
+                    <p><strong>10th Class:</strong> 91.6% CBSE, Navy Children School, 2019</p>
+                </div>
+                <div class="qualification-item">
+                    <img src="12th.png" alt="12th Class Certificate">
+                    <p><strong>12th Class:</strong> 96.6% CBSE, Navy Children School, 2021</p>
+                </div>
+                <div class="qualification-item middle">
+                    <img src="13th.png" alt="BTech Certificate">
+                    <p><strong>BTech CSE:</strong> 9.71 CGPA, GITAM University, 2021-2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
