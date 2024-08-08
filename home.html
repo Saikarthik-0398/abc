@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/007/169/428/non_2x/modern-dark-blue-background-with-golden-lines-element-vector.jpg');
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            padding: 20px;
+            background: linear-gradient(90deg, #ffd700, #ffcc00, #ffb800); /* Realistic gold gradient */
+            color: blue;
+            border-bottom: 3px solid #b8860b; /* Bottom border in a darker gold shade */
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Adding a shadow for a realistic effect */
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .description {
+            margin: 20px 0;
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            box-shadow: 0 0 0 4px gold;
+            position: absolute;
+            right: 80px;
+            bottom: -90px; /* Adjust this value to move the picture down */
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            flex: 1;
+            position: relative;
+        }
+        .navbar {
+            background: linear-gradient(90deg, #ffd700, #ffcc00, #ffb800); /* Realistic gold gradient */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Adding a shadow for a realistic effect */
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: auto;
+        }
+        .navbar a {
+            color: blue;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 14px 20px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated-text {
+            color: white;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes disco {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: green; }
+            75% { color: blue; }
+            100% { color: purple; }
+        }
+        .disco-blink {
+            font-size: 24px;
+            font-weight: bold;
+            animation: disco 1s infinite;
+        }
+        .btech-container {
+            position: relative;
+            margin-top: 100px; /* Adjust this value to move the text down */
+            display: flex;
+            align-items: center;
+        }
+        .btech-text {
+            position: absolute;
+            left: 20px; /* Adjust this value to move the text from the left edge */
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: white;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="https://media.licdn.com/dms/image/D5622AQGZwPgJZh2Z5w/feedshare-shrink_800/0/1715569715471?e=2147483647&v=beta&t=u6vclALXw_xpAVFYngwEFkydZWgMcYBW1qLJcE_rBcM" alt="Logo" class="logo"> 
+    <h1>Pinisingi Saikarthik</h1>
+</div>
+
+<div class="btech-container">
+   <a href="https://rawcdn.githack.com/Saikarthik-0398/abc/c15a67f1acd8d7bcc4f9ce04cb1b42af8c880f46/courses.html"> <p class="btech-text disco-blink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BTECH (CSE)</p></a>
+    <img src="profile.jfif" alt="Profile Picture" class="profile-pic">
+</div>
+
+<div class="content">
+    <div class="description">
+<br/><br/><br/><br/><br/>
+        <p class="animated-text">Hello! I am a BTech CSE professional with a passion for technology and innovation. I specialize in developing machine learning models, creating interactive web applications, and solving complex computational problems.</p>
+        <p class="animated-text">I am committed to continuous learning and thrive in collaborative environments where I can contribute to innovative projects and tackle challenges head-on.</p>
+         <p class="animated-text"> I am an ideal candidate for your company and well-suited to contribute effectively to the corporate environment </p>
+ </div>
+</div>
+
+<div class="navbar">
+    <a href="https://rawcdn.githack.com/Saikarthik-0398/abc/caa472b3f9280049fc6bca8ab2830f3441551552/qualification.html">Qualification</a>
+    <a href="https://rawcdn.githack.com/Saikarthik-0398/abc/3791408db81db59c254b7e7afe73b06587aa2138/pdf&rendition=1.pdf">Resume</a>
+    <a href="https://rawcdn.githack.com/Saikarthik-0398/abc/b93ef53ef98e146a6da2c8272364dde28efcdc71/project.html">Projects</a>
+    <a href="https://rawcdn.githack.com/Saikarthik-0398/abc/4c63bac0ff2d58f2436e6edaf3721378c16d5aeb/contact.html">Contact</a>
+    <a href ="https://rawcdn.githack.com/Saikarthik-0398/abc/603834c75a0696f62dbaed466b4cabe155e42a2c/skills.html">Skills </a>
+</div>
+
+</body>
+</html>
